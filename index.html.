@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luminalink Mining Agency</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/3/3a/US_one_dollar_bill,_reverse.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #0f5132;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: rgba(15, 81, 50, 0.9);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #198754;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      background: rgba(255,255,255,0.85);
+      margin: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #0f5132;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Luminalink Mining Agency</h1>
+    <p>Welcome User 06-26</p>
+  </header>
+
+  <nav>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#deposit">Invest/Deposit</a>
+    <a href="#withdrawal">Request Withdrawal</a>
+    <a href="#balance">Investment Balance</a>
+    <a href="#history">Transaction History</a>
+    <a href="#refer">Refer & Earn</a>
+  </nav>
+
+  <section id="dashboard">
+    <h2>Dashboard</h2>
+    <p>Quick overview of balances and activity.</p>
+  </section>
+
+  <section id="deposit">
+    <h2>Invest / Deposit</h2>
+    <p>Deposit via Bitcoin or USDT. Copy wallet address below:</p>
+    <code>BTC Wallet: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</code><br>
+    <code>USDT Wallet: 0x123456789abcdef</code>
+  </section>
+
+  <section id="withdrawal">
+    <h2>Request Withdrawal</h2>
+    <p>You’re almost there! Complete your tasks and meet your target to unlock your withdrawal authorization code.</p>
+  </section>
+
+  <section id="balance">
+    <h2>Investment Balance</h2>
+    <p>Balance will be updated weekly.</p>
+  </section>
+
+  <section id="history">
+    <h2>Transaction History</h2>
+    <p>Editable records of deposits and withdrawals.</p>
+  </section>
+
+  <section id="refer">
+    <h2>Refer & Earn</h2>
+    <p>Invite friends and earn a $500 bonus.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Luminalink Mining Agency</p>
+  </footer>
+</body>
+</html>
